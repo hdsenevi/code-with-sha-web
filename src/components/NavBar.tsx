@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ModeToggle } from "./ModeToggle";
 
-export default function Nav() {
+export default function NavBar() {
   return (
     <header>
       <nav>
@@ -14,11 +14,11 @@ export default function Nav() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
+                src="/code-with-sha-logo.svg"
+                alt="Code with Sha Logo"
                 className="dark:invert"
-                width={100}
-                height={24}
+                width={200}
+                height={48}
                 priority
               />
             </a>

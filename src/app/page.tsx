@@ -1,10 +1,10 @@
-import Nav from "@/components/Nav";
+import NavBar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
     <main className="p-24">
-      <Nav />
+      <NavBar />
       <section className="py-12 flex flex-col items-center text-center">
         <h1 className="text-4xl font-bold">Welcome to code with Sha 🎉</h1>
         <p className="text-2xl text-muted-foreground">
