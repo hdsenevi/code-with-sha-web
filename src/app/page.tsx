@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <main className="p-24">
+    <main>
       <NavBar />
       <section className="py-12 flex flex-col items-center text-center">
         <h1 className="text-4xl font-bold">Welcome to code with Sha 🎉</h1>

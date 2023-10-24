@@ -4,7 +4,7 @@ import { ModeToggle } from "./ModeToggle";
 export default function NavBar() {
   return (
     <header>
-      <nav className="sticky drop-shadow-xl z-10">
+      <nav className="sticky drop-shadow-xl z-10 bg-primary/10">
         <ul className="prose prose-xl mx-auto flex items-center justify-between">
           <li>
             <a
